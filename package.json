@@ -1,0 +1,50 @@
+{
+  "name": "musify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "prebuild": "expo prebuild --platform android",
+    "clean": "expo prebuild --clean --platform android",
+    "ios": "expo run:ios"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.0",
+    "@gorhom/bottom-sheet": "^5.1.0",
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "expo": "~53.0.0",
+    "expo-asset": "~11.1.7",
+    "expo-audio": "~0.4.0",
+    "expo-blur": "~14.1.0",
+    "expo-dev-client": "~5.2.4",
+    "expo-file-system": "~18.1.0",
+    "expo-font": "~13.3.2",
+    "expo-haptics": "~14.1.0",
+    "expo-image": "~2.4.1",
+    "expo-linear-gradient": "~14.1.0",
+    "expo-linking": "~7.1.7",
+    "expo-media-library": "~17.1.0",
+    "expo-router": "~5.1.11",
+    "expo-splash-screen": "~0.30.0",
+    "expo-status-bar": "~2.2.0",
+    "jsmediatags": "^3.9.7",
+    "react": "19.0.0",
+    "react-native": "^0.79.6",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-reanimated": "~3.17.0",
+    "react-native-safe-area-context": "^5.4.0",
+    "react-native-screens": "~4.11.1",
+    "react-native-track-player": "^4.1.1",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.0",
+    "@types/react": "~19.0.0",
+    "typescript": "~5.8.0"
+  },
+  "overrides": {
+    "expo-constants": "~17.1.0"
+  },
+  "private": true
+}
